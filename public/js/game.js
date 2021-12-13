@@ -67,7 +67,7 @@ getNewQuestion = () => {
     progressBarFull.getElementsByClassName.width = '${(questionCounter/MAX_QUESTIONS) * 100}%'
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
+    currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
