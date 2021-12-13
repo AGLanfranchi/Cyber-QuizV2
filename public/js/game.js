@@ -28,6 +28,22 @@ let questions = [
         answer: 3,
     },
     {
+        question: "Which of the following describes Ransomware?",
+        choice1: "Software that tracks a persons movements then takes them hostage when alone",
+        choice2: "Takes control of your computer or phone while you are using it",
+        choice3: "Malicious software designed to block access to a computer system until a sum of money is paid",
+        choice4: "Spys on you and gathers information",
+        answer: 3,
+    },
+    {
+        question: "The best defense against ransomware is being proactive when you___",
+        choice1: "Purchase comprehensive cybersecurity insurance",
+        choice2: "Back up your data regularly",
+        choice3: "Regularly update all your devices and software with the latest security patches",
+        choice4: "Change your password regularly",
+        answer: 2,
+    },
+    {
         question: "Which one of these things is most effective for maintaining your digital privacy?",
         choice1: "Unsubscribing from all spam emails",
         choice2: "Covering your computer's front-facing camera",
@@ -37,16 +53,89 @@ let questions = [
     },
     {
         question: "Why it is important to update antivirus software regularly?",
-        choice1: "To prevent the spread of malicious programs on the Internet.",
-        choice2: "To protect your computer from unwanted bulk messages.",
-        choice3: "To protect your computer from all known viruses",
-        choice4: "To ensure the software identifies old viruses.",
+        choice1: "Prevent the spread of malicious programs on the Internet",
+        choice2: "Protect your computer from unwanted bulk messages",
+        choice3: "Protect your computer from all known viruses",
+        choice4: "To ensure the software identifies old viruses",
+        answer: 3,
+    },
+    {
+        question: "You received an email from Microsoft explaining that your password it out of date, and you must set a new one.  The link within the email will guide you through it.  Your next step is?",
+        choice1: "Follow the link and reset your password",
+        choice2: "Ignore the email and delete it",
+        choice3: "Reset your password manually",
+        choice4: "Forwrad email on to friends/family",
         answer: 2,
     },
+    {
+        question: "What is recommended  to prevent the risk of unathorised access to home Wi-Fi?",
+        choice1: "Change the default login credentials and password for the home router",
+        choice2: "Disconnect the computer from the network",
+        choice3: "Adjust the Internet security settings",
+        choice4: "Complain to the Internet Service Provider",
+        answer: 1,
+    },
+    {
+        question: "Which one of the following is MOST likely to be a hoax?",
+        choice1: "An email from a friend you have not seen recently",
+        choice2: "An email asking you to go to a website for a free computerscan",
+        choice3: "An email advertisement from a local shop you subscribe to",
+        choice4: "An email with an attachment sent by a colleague using their personal email address",
+        answer: 2,
+    },
+    {
+        question: "What's the best way to secure a weak password like 'house123'?",
+        choice1: "Add an uppercase letter and a special character, such as @",
+        choice2: "Don't reuse it anywhere else or share it with anyone",
+        choice3: "Enable Two-Factor Authentication",
+        choice4: "Add more numbers",
+        answer: 3,
+    },
+    {
+        question: "What should you do if you think your identity or accounts have been compromised?",
+        choice1: "Monitor your email address and accounts for fraudulent activity",
+        choice2: "Subscribe to a monitoring service such as Lifelock or WebWatcher",
+        choice3: "Respond to the warning email you have received",
+        choice4: "Nothing, banks have systems in place to deal with this",
+        answer: 1,
+    },
+    {
+        question: "Which of the following describes Ransomware?",
+        choice1: "Software that tracks a persons movements then takes them hostage when alone",
+        choice2: "Takes control of your computer or phone while you are using it",
+        choice3: "Software designed to block access to a computer system until a sum of money is paid",
+        choice4: "Spys on you and gathers information",
+        answer: 3,
+    },
+    {
+        question: "The best defense against ransomware is being proactive when you___",
+        choice1: "Purchase comprehensive cybersecurity insurance",
+        choice2: "Back up your data regularly",
+        choice3: "Regularly update all your devices and software with the latest security patches",
+        choice4: "Change your password regularly",
+        answer: 2,
+    },
+    {
+        question: "Which of the following describes Phishing?",
+        choice1: "Attacks pretending to be legitimate with the aim of tricking people into revealing passwords or bank details",
+        choice2: "Tracking your computer movements and 'Phising out' your actions",
+        choice3: "A way of stealing your identity",
+        choice4: "All above",
+        answer: 1,
+    },
+    {
+        question: "What is the best way to stop falling for Phishing scams?",
+        choice1: "Email filters that block suspicious attachments",
+        choice2: "Pop-up blockers",
+        choice3: "Cybersecurity awareness training",
+        choice4: "Antivirus software",
+        answer: 3,
+    },
+
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 15
 
 startGame = () => {
     questionCounter = 0
