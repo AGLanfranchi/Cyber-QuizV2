@@ -108,8 +108,8 @@ let questions = [
         answer: 1,
     },
     {
-        question: "Which one of the following ensures your Computer/Laptop is kept safe and secure?",
-        choice1: "Use a firewall and antivirus software",
+        question: "Which one of the following ensures your Computer/Laptop is kept safe in a busy enviorment?",
+        choice1: "Use a VPN",
         choice2: "Turn off the Bluetooth",
         choice3: "Only use it in private surroundings",
         choice4: "Never leave it unattended",
