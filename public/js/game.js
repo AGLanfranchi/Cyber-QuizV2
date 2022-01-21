@@ -60,7 +60,7 @@ let questions = [
         answer: 3,
     },
     {
-        question: "You received an email from Microsoft explaining that your password it out of date, and you must set a new one.  The link within the email will guide you through it.  Your next step is?",
+        question: "You received an email from Microsoft explaining that your password it out of date, and you must set a new one. The link within the email will guide you through it. Your next step is?",
         choice1: "Follow the link and reset your password",
         choice2: "Ignore the email and delete it",
         choice3: "Reset your password manually",
