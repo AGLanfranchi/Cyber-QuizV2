@@ -11,6 +11,7 @@ let questionCounter = 0
 let availableQuestions = []
 
 let questions = [
+    // Question 1
     {
         question: "Which of the following passwords is the most secure?",
         choice1: "123456",
@@ -20,6 +21,7 @@ let questions = [
         answer: 4,
     },
     {
+        // Question 2
         question: "When is it OK to reuse a password?",
         choice1: "When you are logging into social media accounts",
         choice2: "When it is too hard to remember a long password",
@@ -28,6 +30,7 @@ let questions = [
         answer: 3,
     },
     {
+        // Question 3
         question: "Which of the following describes Ransomware?",
         choice1: "Software that tracks a person's movements then takes them hostage when alone",
         choice2: "Takes control of your computer or phone while you are using it",
@@ -36,6 +39,7 @@ let questions = [
         answer: 3,
     },
     {
+        // Question 4
         question: "The best defence against ransomware is being proactive when you___",
         choice1: "Purchase comprehensive cybersecurity insurance",
         choice2: "Back up your data regularly",
@@ -44,6 +48,7 @@ let questions = [
         answer: 2,
     },
     {
+        // Question 5
         question: "Which one of these things is most effective for maintaining your digital privacy?",
         choice1: "Unsubscribing from all spam emails",
         choice2: "Covering your computer's front-facing camera",
@@ -52,6 +57,7 @@ let questions = [
         answer: 3,
     },
     {
+        // Question 6
         question: "Why it is important to update antivirus software regularly?",
         choice1: "Prevent the spread of malicious programs on the Internet",
         choice2: "Protect your computer from unwanted bulk messages",
@@ -60,6 +66,7 @@ let questions = [
         answer: 3,
     },
     {
+        // Question 7
         question: "You received an email from Microsoft explaining that your password it out of date, and you must set a new one. The link within the email will guide you through it. Your next step is?",
         choice1: "Follow the link and reset your password",
         choice2: "Ignore the email and delete it",
@@ -68,6 +75,7 @@ let questions = [
         answer: 2,
     },
     {
+        // Question 8
         question: "What is recommended  to prevent the risk of unauthorised access to home Wi-Fi?",
         choice1: "Change the default login credentials and password for the home router",
         choice2: "Disconnect the computer from the network",
@@ -76,6 +84,7 @@ let questions = [
         answer: 1,
     },
     {
+        // Question 9
         question: "Which one of the following is MOST likely to be a hoax?",
         choice1: "An email from a friend you have not seen recently",
         choice2: "An email asking you to go to a website for a free computer scan",
@@ -84,6 +93,7 @@ let questions = [
         answer: 2,
     },
     {
+        // Question 10
         question: "What's the best way to secure a weak password like 'house123'?",
         choice1: "Add an uppercase letter and a special character, such as @",
         choice2: "Don't reuse it anywhere else or share it with anyone",
@@ -92,6 +102,7 @@ let questions = [
         answer: 3,
     },
     {
+        // Question 11
         question: "What should you do if you think your identity or accounts have been compromised?",
         choice1: "Monitor your email address and accounts for fraudulent activity",
         choice2: "Subscribe to a monitoring service such as LifeLock or WebWatcher",
@@ -100,6 +111,7 @@ let questions = [
         answer: 1,
     },
     {
+        // Question 12
         question: "Which one of the following statements about a password is TRUE?",
         choice1: "It should be changed regularly",
         choice2: "It cannot contain special character symbols",
@@ -108,6 +120,7 @@ let questions = [
         answer: 1,
     },
     {
+        // Question 13
         question: "Which one of the following ensures your Computer/Laptop is kept safe in a busy enviorment?",
         choice1: "Use a VPN",
         choice2: "Turn off the Bluetooth",
@@ -116,14 +129,16 @@ let questions = [
         answer: 4,
     },
     {
+        // Question 14
         question: "Which of the following describes Phishing?",
         choice1: "Attacks pretending to be legitimate with the aim of tricking people into revealing passwords or bank details",
         choice2: "Tracking your computer movements and 'Phishing out' your actions",
         choice3: "A way of stealing your identity",
-        choice4: "All above",
+        choice4: "All of the above",
         answer: 1,
     },
     {
+        // Question 15
         question: "What is the best way to stop falling for Phishing scams?",
         choice1: "Email filters that block suspicious attachments",
         choice2: "Pop-up blockers",
