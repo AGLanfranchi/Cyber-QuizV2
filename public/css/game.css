@@ -68,8 +68,55 @@ body {
     width: 0%;
 }
 
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hud-item {
+        min-width: 20rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #question {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .choice-text{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .choice-container {
+        min-width: 2rem;
+        padding: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .hud-item {
+        min-height: 4rem;
+        min-width: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .choice-text{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #question {
+        font-size: 2rem;
     }
 }
